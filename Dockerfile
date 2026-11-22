@@ -1,6 +1,7 @@
-FROM python:3.12-slim
+FROM python:3.12-slim@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b
 
 # Set metadata
+LABEL org.opencontainers.image.source="https://github.com/austek/asus-router-monitoring"
 LABEL maintainer="Rafael"
 LABEL description="ASUS Router Prometheus Exporter v2.0 - Modular Architecture"
 LABEL version="2.0.0"
